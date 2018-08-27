@@ -1,0 +1,4 @@
+<!--pages/page3/page3.wxml-->
+<view class="container">
+这里是第三个页面
+</view>
