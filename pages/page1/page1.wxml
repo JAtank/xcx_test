@@ -14,5 +14,30 @@
       <image src='http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg'></image>
     </swiper-item>   
   </swiper>
-  <view>这里是展示区</view>
+  <view class="content">
+    <swiper class="fenlei">
+      <swiper-item>
+        <block wx:for="{{firstArray}}">
+          <view class="fl-item">
+            <view class="fl-item-content">{{item}}</view>
+          </view>
+        </block>
+      </swiper-item>
+      <swiper-item>
+        <block wx:for="{{secondArray}}">
+          <view class="fl-item">
+            <view class="fl-item-content">{{item}}</view>
+          </view>
+        </block>
+      </swiper-item>
+    </swiper>
+    <view class="tuijian">
+      <block wx:for="{{tjList}}" wx:for-index="tjIndex" wx:for-item="tjItem">
+        <view class="tj-item">
+          <text class="tj-item-name">{{tjItem.name}}</text>
+          <text class="tj-item-content">{{tjItem.content}}</text>
+        </view>
+      </block>
+    </view>
+  </view>
 </view>
