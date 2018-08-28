@@ -20,7 +20,7 @@ image{
   justify-content: center;
   align-items: center;
   width: 25%;
-  height: 48%;
+  height: 49%;
 }
 .fl-item-content{
   width: 100rpx;
@@ -41,7 +41,7 @@ image{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10rpx;
+  padding: 20rpx;
   width: 30%;
   height: 100%;
   color: #fff;
@@ -52,7 +52,7 @@ image{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5rpx;
+  padding: 10rpx;
   color: #666666;
   height: 100%;
 }

@@ -1,4 +1,36 @@
 <!--pages/page3/page3.wxml-->
 <view class="container">
-这里是第三个页面
+  <view class="user">
+    <view class="head"></view>
+    <view class="info">
+      <text class="name">姓名：{{user_info.name}}</text>
+      <text class="msg">信息：{{user_info.info}}</text>
+    </view>
+  </view>
+  <view class="gongneng">
+    <view class="gg-item">
+      优惠券
+      <text class="arrow">>>></text>
+    </view>
+    <view class="gg-item">
+      卡包
+      <text class="arrow">>>></text>
+    </view>
+    <view class="gg-item">
+      钱包
+      <text class="arrow">>>></text>
+    </view>
+    <view class="gg-item">
+      设置
+      <text class="arrow">>>></text>
+    </view>
+    <view class="gg-item">
+      反馈
+      <text class="arrow">>>></text>
+    </view>
+    <view class="gg-item">
+      版本信息
+      <text class="arrow">>>></text>
+    </view>
+  </view>
 </view>

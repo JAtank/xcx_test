@@ -1,1 +1,44 @@
 /* pages/page3/page3.wxss */
+.user{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 360rpx;
+  background-color: sandybrown;
+}
+.head{
+  width: 160rpx;
+  height: 160rpx;
+  background-color: forestgreen;
+}
+.info{
+  width: 60%;
+  margin: 20rpx;
+  color: white;
+  font-size: 26rpx;
+}
+.name{
+  display: block; 
+}
+.msg{
+  display: block;
+  margin-top: 35rpx;
+}
+.gongneng{
+  width: 100%;
+  margin-top: 10rpx;
+}
+.gg-item{
+  position: relative;
+  margin-top: 5rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  background-color: cornflowerblue;
+  color: white;
+  padding-left: 90rpx;
+}
+.arrow{
+  position: absolute;
+  right: 80rpx;
+}
